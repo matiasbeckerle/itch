@@ -16,6 +16,11 @@ let menus = {
     label: 'File',
     submenu: [
       {
+        label: 'Preferences',
+        accelerator: 'CmdOrCtrl+P',
+        click: AppActions.open_preferences
+      },
+      {
         label: 'Close Window',
         accelerator: 'CmdOrCtrl+W',
         click: AppActions.hide_window

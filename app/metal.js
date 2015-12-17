@@ -65,6 +65,7 @@ function ready () {
   require('./stores/collection-store')
   require('./stores/game-store')
   require('./stores/notification-store')
+  require('./stores/preferences-store')
   require('./stores/tray-store')
   require('./stores/setup-store')
   require('./stores/cave-store')
